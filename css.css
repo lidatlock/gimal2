@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-y: scroll; /* 세로 스크롤 활성화 */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; /* 세로로 정렬 */
+    align-items: center;    /* 이미지 가운데 정렬 */
+    gap: 20px;              /* 이미지 간격 */
+    padding: 20px;
+}
+
+.image-container img {
+    width: 80%;             /* 이미지 너비를 조정 */
+    max-width: 800px;       /* 최대 너비 제한 */
+    height: auto;           /* 이미지 비율 유지 */
+    border-radius: 10px;    /* 모서리 둥글게 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}

@@ -1,0 +1,53 @@
+/* 전체 레이아웃 */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+/* 텍스트 박스 스타일 */
+.text {
+    width: 550px;
+    padding: 50px;
+    background-color: #ffffff;
+    border: 2px solid #333;
+    font-size: 20px;
+    color: #333;
+    position: relative;
+    cursor: grab;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+/* 숨겨진 텍스트 박스 */
+.hidden-box {
+    width: 550px;
+    padding: 45px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #ffffff;
+    position: absolute;
+    display: none; /* 초기 상태에서 숨김 */
+    z-index: 3;
+}
+
+/* 이미지 스타일 */
+.image {
+    width: 550px;
+    margin-top: 20px; /* 텍스트 박스와의 간격 */
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+

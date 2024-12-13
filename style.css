@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #87CEEB; /* 하늘색 배경 */
+    position: relative;
+    overflow: hidden;
+}
+
+#water {
+    position: absolute;
+    bottom: 0;
+    left: 100%; /* 오른쪽에서 시작 */
+    width: 100px; /* 물의 폭 */
+    height: 0; /* 초기 높이 */
+    background: rgba(0, 153, 255, 0.8);
+    transition: height 1s ease, left 1s ease; /* 물의 애니메이션 효과 */
+}
+
+.object {
+    position: absolute;
+    bottom: 30px; /* 오브젝트의 초기 높이 */
+    left: 50%; /* 중앙에 위치 */
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #FF4500; /* 오브젝트 색상 */
+    border-radius: 10px; /* 둥근 모서리 */
+    transition: bottom 0.5s ease; /* 부력 애니메이션 */
+}
+
+

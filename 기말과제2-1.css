@@ -1,0 +1,79 @@
+body {
+    background-image: url('고고학.jpg'); /* 배경 이미지 */
+    background-size: cover; /* 이미지를 화면 크기에 맞게 조정 */
+    background-position: center; /* 이미지가 화면의 중앙에 오도록 설정 */
+    line-height: 1.6;
+    position: absolute;
+
+    
+}
+
+
+
+.image1 {
+    position: relative;
+    top: 100px;   /* 위에서 100px 떨어지게 설정 */
+    left: 3000px;  /* 왼쪽에서 200px 떨어지게 설정 */
+    width: 150px;
+    height: 150px;
+    padding-left: 100px;
+    margin-left: 100px;
+    
+}
+
+.image2 {
+    position: relative;
+    top: 100px;   /* 위에서 100px 떨어지게 설정 */
+    left: 1000px;  /* 왼쪽에서 200px 떨어지게 설정 */
+    width: 50px;
+    height: 1300px;
+}
+.image3 {
+    position: relative;
+    top: 500px;   /* 위에서 100px 떨어지게 설정 */
+    left: 2000px;  /* 왼쪽에서 200px 떨어지게 설정 */
+    width: 150px;
+    height: 150px;
+
+}
+.image4 {
+    position: relative;
+    top: 600px;   /* 위에서 100px 떨어지게 설정 */
+    left: 4000px;  /* 왼쪽에서 200px 떨어지게 설정 */
+    width: 150px;
+    height: 150px;
+
+
+}
+
+
+* {
+    cursor: url('mine2.png') 10 10, auto !important;
+}
+.text-box {
+    margin-top: 10px;
+    padding: 10px;
+    background-color:white;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+   width: 1000px;
+    margin: 10px auto;
+    font-size: 32px;
+}
+
+.image-container img {
+    mix-blend-mode: multiply; /* 기본 blend mode */
+    transition: mix-blend-mode 0.5s ease;
+}
+
+.image-container img.normal-mode {
+    mix-blend-mode: normal !important;
+}
+
+
+
+
+
+
